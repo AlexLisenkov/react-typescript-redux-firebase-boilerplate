@@ -1,9 +1,9 @@
 export const FIREBASE_CONFIG = {
     // Put your Firebase config here.
-    apiKey: "API_KEY",
-    authDomain: "AUTH_DOMAIN",
-    databaseURL: "DATABASE_URL",
-    messagingSenderId: "MESSAGING_SENDER_ID",
-    projectId: "PROJECT_ID",
-    storageBucket: "STORAGE_BUCKET"
+    apiKey: "AIzaSyAnwepQ0dkoXU-LSk4tChWCM5uDmunwzuE",
+    authDomain: "react-ts-b9413.firebaseapp.com",
+    databaseURL: "https://react-ts-b9413.firebaseio.com",
+    messagingSenderId: "199780514361",
+    projectId: "react-ts-b9413",
+    storageBucket: "",
 };

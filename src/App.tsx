@@ -1,16 +1,16 @@
 import * as React from 'react';
-import {Router, Route, Switch} from "react-router-dom";
+import {connect} from "react-redux";
+import {Route, Router, Switch} from "react-router-dom";
 import {Container} from "reactstrap";
+import {bindActionCreators} from "redux";
+import {setCurrentUser} from './actions/authActions';
 import './App.css';
 import Login from "./components/authentication/Login";
+import Register from "./components/authentication/Register";
 import NavBar from "./components/layout/NavBar";
 import Overview from "./components/Overview";
-import Register from "./components/authentication/Register";
-import {FireBaseManager} from "./utils/firebase";
-import {bindActionCreators} from "redux";
-import {connect} from "react-redux";
-import {setCurrentUser} from './actions/authActions';
 import PrivateRoute from './components/PrivateRoute';
+import {FireBaseManager} from "./utils/firebase";
 import history from "./utils/history";
 
 class App extends React.Component<any, any> {

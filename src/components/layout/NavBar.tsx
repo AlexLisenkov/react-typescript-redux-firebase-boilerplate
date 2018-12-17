@@ -10,8 +10,8 @@ import {
     NavLink as BootstrapNavLink
 } from 'reactstrap';
 import {bindActionCreators} from "redux";
-import {FireBaseManager} from "../../utils/firebase";
 import {setCurrentUser} from "../../actions/authActions";
+import {FireBaseManager} from "../../utils/firebase";
 
 interface IProps extends RouteComponentProps {
     isLoggedIn: boolean,

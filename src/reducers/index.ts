@@ -3,8 +3,8 @@ import authReducer from "./authReducer";
 import firebaseReducer from "./firebaseReducer";
 
 const rootReducer = combineReducers({
-    firebaseReducer,
     authReducer,
+    firebaseReducer,
 });
 
 export default rootReducer;
